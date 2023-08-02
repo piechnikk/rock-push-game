@@ -1,0 +1,5 @@
+/server/src/main/kotlin/Credentials.kt
+/server/out/
+/server/target/
+/client/node_modules/
+/client/dist/
