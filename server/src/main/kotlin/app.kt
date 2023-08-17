@@ -9,7 +9,7 @@ var games = mutableListOf<MutableList<Session>>()
 var random = ""
 
 fun main() {
-    port(52780)
+    port(5000)
     webSocket("/ws/", ServerSocket::class.java)
     staticFileLocation("/public")
     get("/") { req, res -> index(req, res) } // get pliku index.html
